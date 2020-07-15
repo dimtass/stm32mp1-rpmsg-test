@@ -177,5 +177,8 @@ you should see this messages:
 ## Using the cmake template in Yocto
 TBD
 
+## License
+Just MIT.
+
 ## Author
 Dimitris Tassopoulos <dimtass@gmail.com>
