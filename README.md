@@ -1,15 +1,13 @@
 STM32MP157C RPMSG test tool
 ----
 
-[![dimtass](https://circleci.com/gh/dimtass/stm32mp1-cmake-rpmsg-test.svg?style=svg)](https://circleci.com/gh/dimtass/stm32mp1-cmake-rpmsg-test)
-
 This code is based on the cmake template for STM32MP157C which is located [here](https://github.com/dimtass/stm32mp1-cmake-template).
 
 This repo contains the source code of the firwmare for the CM4 MPU on the STM32MP1
 and a Linux tool for the CA CPU. Both are using OpenAMP to transfer data between
 the MPU and CPU via the virtual UART/TTY.
 
-> Note: There is a blog post here which explains how to use this test [here](https://www.stupid-projects.com/?p=881&preview=true).
+> Note: There is a blog post here which explains how to use this test [here](https://www.stupid-projects.com/benchmarking-the-stm32mp1-ipc-between-the-mcu-and-cpu/).
 
 ## Build the CM firmware
 To build the firmware you need to clone the repo in any directory and then inside
