@@ -3,7 +3,7 @@ include(FetchContent)
 
 FetchContent_Declare(STM32CubeMP1
     GIT_REPOSITORY  https://github.com/STMicroelectronics/STM32CubeMP1.git
-    GIT_TAG         master
+    GIT_TAG         1.4.0
 )
 FetchContent_GetProperties(stm32cubemp1)
 if(NOT stm32cubemp1_POPULATED)
